@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 
 * {
   box-sizing: border-box;
 }
 
 html {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 body {
@@ -129,4 +129,30 @@ li button:hover {
 .fallback {
   text-align: center;
   color: #acd1ce;
+}
+
+.infobox {
+  text-align: center;
+  border: 1px solid black;
+  margin-bottom: 1rem;
+}
+
+.infobox-hint {
+  color: yellowgreen;
+  border-color: yellowgreen;
+}
+
+.infobox-warning {
+  color: red;
+  border-color: red;
+}
+
+.warning--low {
+  font-weight: 300;
+}
+.warning--medium {
+  font-weight: 500;
+}
+.warning--high {
+  font-weight: 700;
 }
